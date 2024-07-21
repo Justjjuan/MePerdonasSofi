@@ -28,13 +28,13 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Siiiiii!!!! 😍😍😍";
+  titleElement.innerHTML = "yo tambien te amo mi amor, no vuelvo a ignorarte mas 😍😍😍";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
   window.navigator.vibrate(2000);
   catImg.addEventListener(
     "dblclick",
-    () => (titleElement.innerHTML = "Hecho con amor por EduardoProfe666🎩")
+    () => (titleElement.innerHTML = "Hecho con amor por Juan para Sofi")
   );
 }
 
@@ -58,7 +58,7 @@ function generateMessage(noCount) {
     "No",
     "Estás segura?",
     "Por favorcito",
-    "Perdóname chica anda",
+    "Perdóname chica anda, estaba durmiendo amor",
     "No seas mala",
     "Yo no lo vuelvo a hacer...",
     "Discúlpame pls",
